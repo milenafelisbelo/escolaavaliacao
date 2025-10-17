@@ -33,7 +33,7 @@ cd escolaavaliacao
 - DER
 ![DER](docs/DER.jpeg)
 
-- DER
+- UML
 ![UML](docs/UML.jpeg)
 
 - Turmas
