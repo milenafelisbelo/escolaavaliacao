@@ -11,12 +11,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #dfe3ed, #f8f9fb); /* fundo suave azul claro */
+  background: linear-gradient(135deg, #dfe3ed, #f8f9fb);
   padding: 20px;
 }
 
 h1 {
-  color: #0b1d3a; /* azul marinho escuro */
+  color: #0b1d3a;
   font-size: 2em;
   margin-bottom: 25px;
   text-align: center;

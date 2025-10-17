@@ -7,7 +7,7 @@
 
 body {
   min-height: 100vh;
-  background: #e8edf5; /* fundo suave azul claro */
+  background: #e8edf5;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@ body {
 
 header {
   width: 100%;
-  background: linear-gradient(90deg, #0b1d3a, #1a2b4d); /* azul marinho degradê */
+  background: linear-gradient(90deg, #0b1d3a, #1a2b4d);
   padding: 15px 30px;
   position: fixed;
   top: 0;
@@ -198,7 +198,7 @@ main {
 
 .deletar-turma {
   padding: 10px 20px;
-  background-color: #e07468; /* vermelho escuro para delete */
+  background-color: #e07468;
   color: #fff;
   font-weight: 600;
   border: none;
