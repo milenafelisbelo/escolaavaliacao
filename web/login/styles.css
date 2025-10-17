@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #dfe3ed, #f8f9fb); /* fundo suave azul claro */
+  padding: 20px;
+}
+
+header {
+  width: 100%;
+  background: linear-gradient(90deg, #0b1d3a, #1a2b4d); /* azul marinho degradê */
+  padding: 30px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+header h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-bottom: 25px;
+  color: #0b1d3a;
+  text-align: center;
+}
+
+form {
+  background: #fff;
+  padding: 35px 45px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  transition: all 0.3s ease;
+}
+
+form:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #0b1d3a;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 12px;
+  font-size: 1em;
+  transition: all 0.3s ease;
+  background: #f7f9fc;
+}
+
+input:focus {
+  border-color: #0b1d3a;
+  outline: none;
+  box-shadow: 0 0 8px rgba(11, 29, 58, 0.3);
+}
+
+button {
+  width: 100%;
+  padding: 14px 0;
+  background-color: #0b1d3a;
+  color: #fff;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #1a2b4d;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: scale(0.98);
+}

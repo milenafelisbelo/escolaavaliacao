@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel de Turmas</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Escola</h1>
+        <div class="professor-info">
+          <span id="professor-nome"></span>
+        </div>
+        <a href="/web/login/login.html">Sair</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="dashboard-header">
+        <h2>Dashboard</h2>
+        <p>Bem-vindo!</p>
+        <a href="/web/cadastro/cadastrarTurma/cadastrarturma.html"
+          >Cadastrar Turma</a
+        >
+      </section>
+
+      <section class="turmas-section">
+        <h3>Turmas</h3>
+        <table id="tabela-turmas">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Ações</th>
+              <th>Excluir</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>

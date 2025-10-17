@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividades</title>
+    <link rel="stylesheet" href="atividades.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="professor-info">
+          <span id="professor-nome"></span>
+        </div>
+        <h1>Escola Linda</h1>
+        <a href="/web/dashboard/dashboard.html">Voltar</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="dashboard-header">
+        <h2>Atividades</h2>
+        <a href="../cadastro/cadastrarAtividade/cadastraratividade.html"
+          >Cadastrar Atividade</a
+        >
+      </section>
+
+      <section class="atividades-section">
+        <h3>Atividades da Turma</h3>
+        <table id="tabela-atividades">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Atividade</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="atividades.js"></script>
+  </body>
+</html>
